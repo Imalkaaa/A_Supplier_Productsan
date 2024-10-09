@@ -1,0 +1,109 @@
+
+
+.suppliers-container {
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .suppliers-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-add {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .suppliers-table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2; 
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1; 
+  }
+  
+  .btn-edit, .btn-delete, .btn-view {
+    background-color: #2196F3; 
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  
+  .btn-delete {
+    background-color: #f44336; 
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-page {
+    padding: 8px 12px;
+    background-color: #2196F3; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-page:disabled {
+    background-color: #ddd; 
+    cursor: not-allowed;
+  }
+  
+
+.btn-add {
+    background-color:  #2196F3; 
+    color: white;           
+    padding: 10px 15px;    
+    border: none;         
+    border-radius: 5px;   
+    text-decoration: none;   
+    display: inline-block;   }
+  
+  .btn-add:hover {
+    background-color: darkblue; 
+  }
+  
