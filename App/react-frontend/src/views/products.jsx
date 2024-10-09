@@ -154,7 +154,7 @@ export default function Products() {
                                     </td>
                                     <td style={tdStyle}>
                                         <img
-                                            src={`http://localhost/SUPPLIERS-MAIN/Arctiq/storage/app/public/${u.image}`}
+                                            src={`http://localhost/Project/App/storage/app/public/${u.image}`}
                                             alt={u.productName}
                                             style={imageStyle}
                                         />
